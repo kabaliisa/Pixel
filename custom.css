@@ -1,0 +1,56 @@
+.carousel-caption h1 {
+  font-size: 60px;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+}
+
+.slide1 {
+  background-image: url("images/one1.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide2 {
+  background-image: url("images/two2.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide3 {
+  background-image: url("images/three.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  margin-bottom: 1px;
+}
+
+.myphoto-section {
+  min-height: 500px;
+}
+
+.center_div {
+  margin: 0 auto;
+  width: 80%; /* value of your choice which suits your alignment */
+}
+.Testimonials p {
+  font-family: "Felipa", cursive;
+  font-size: 30px;
+}
+
+footer {
+  min-height: 200px;
+  background-color: black;
+}
+footer p {
+  color: white;
+}

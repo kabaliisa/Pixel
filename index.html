@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="custom.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Felipa"
+      rel="stylesheet"
+    />
+
+    <title>pixel</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.PNG" height="160%" width="60%" margin="0%"
+          /></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Bookings</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="signup.html"
+                ><span class="glyphicon glyphicon-user"></span> Sign Up</a
+              >
+            </li>
+            <li>
+              <a href="#" data-toggle="modal" data-target="#loginModal"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#mycarousel" data-slide-to="1"></li>
+        <li data-target="#mycarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="slide1"></div>
+          <div class="carousel-caption">
+            <h1>Welcome to pixel</h1>
+            <p>
+              Take the best photoshoots with us.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slide2"></div>
+          <div class="carousel-caption">
+            <h1>Weddings.</h1>
+            <p>Hire the best company to cover your Weddings.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slide3"></div>
+          <div class="carousel-caption">
+            <h1>Clean and Elegant</h1>
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#mycarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+    <br />
+
+    <div class="container-fluid myphoto-section ">
+      <div class="container">
+        <div class="row">
+          <h1>Gallery</h1>
+          <div class="col-md-3">
+            <img
+              src="images/sit.jpg"
+              alt="person"
+              height="294px"
+              width="254px"
+              class="img-rounded"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="images/cam.jpg"
+              alt="person"
+              height="294px"
+              width="254px"
+              class="img-rounded"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="images/head.jpg"
+              alt="person"
+              height="294px"
+              width="254px"
+              class="img-rounded"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="images/zed.jpg"
+              alt="person"
+              height="294px"
+              width="254px"
+              class="img-rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid myphoto-section ">
+      <div class="container Testimonials">
+        <div class="row"></div>
+        <br />
+        <div class="row">
+          <h1></h1>
+          <div class="col-md-9">
+            <p class="text-center">
+              "Pixel has the best team and is full of talent."<br />
+              --Solomon--
+            </p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="images/solo.JPG"
+              alt=""
+              class="img-circle"
+              height="166px"
+              width="150px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        copyright<span><i class="glyphicon glyphicon-copyright-mark"></i></span>
+      </p>
+    </footer>
+
+    <form action="#" id="signupForm">
+      <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title" id="loginModalLabel">Login</h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group" id="inputUserIDFormGroup">
+                <label class="control-label" for="inputUserID">User ID</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputUserID"
+                  placeholder="Enter your user ID"
+                />
+              </div>
+              <div class="form-group" id="inputPasswordFormGroup">
+                x
+                <label class="control-label" for="inputPassword"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword"
+                  placeholder="Enter your password"
+                />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-default"
+                data-dismiss="modal"
+              >
+                Cancel
+              </button>
+              <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <script src="bootstrap/jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
