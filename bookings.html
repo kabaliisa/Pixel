@@ -37,8 +37,8 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="bookings.html">Bookings</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="#">Bookings</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -61,8 +61,20 @@
     <br />
 
     <div class="container">
-      <div class="jumbotron">
-        <h1>About Us</h1>
+      <h2>Make your booking</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <div class="input-group date" id="datetimepicker1">
+              <input type="text" class="form-control" />
+              <span class="input-group-addon">
+                <span class="glyphicon glyphicon-calendar"></span>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -118,5 +130,10 @@
 
     <script src="bootstrap/jquery/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#datetimepicker1").datetimepicker();
+      });
+    </script>
   </body>
 </html>
